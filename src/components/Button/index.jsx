@@ -1,11 +1,13 @@
 import { Button } from './styles.js'
 
 
-function DefaultButton(){
+function DefaultButton({ children, ...props}){
+    
+    
 
     return(
-        
-        <Button>ok ok</Button>
+
+        <Button{...props}>{children}</Button>
     )
 }
 
