@@ -1,16 +1,25 @@
-# React + Vite
+# 🚀 Cadastro de Usuários com React e Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples de cadastro de usuários, desenvolvida com React e Vite. Ele demonstra como criar, ler, atualizar e excluir (CRUD) informações de usuários de forma eficiente e reativa.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cadastro de Usuários:** Adicione novos usuários com nome, email e outras informações.
+- **Listagem de Usuários:** Visualize todos os usuários cadastrados em uma tabela ou lista.
+- **Edição de Usuários:** Atualize os dados de um usuário existente.
+- **Exclusão de Usuários:** Remova usuários da lista.
+- **Validação de Formulário:** Garante que os dados inseridos sejam válidos.
+- **Interface Responsiva:** Adapta-se a diferentes tamanhos de tela.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **Vite:** Ferramenta de build de próxima geração para projetos web, oferecendo um desenvolvimento rápido.
+- **HTML5 & CSS3:** Para a estrutura e estilização da aplicação.
+- **JavaScript (ES6+):** Linguagem de programação principal.
 
-## Expanding the ESLint configuration
+## 🚀 Como Rodar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Inicie o servidor de desenvolvimento:** yarn dev
+- **O projeto estará disponível em:** http://localhost:5173/
+- **Se quiser acessar em outros dispositivos da rede:** yarn dev --host
