@@ -23,3 +23,5 @@ Este projeto é uma aplicação simples de cadastro de usuários, desenvolvida c
 - **Inicie o servidor de desenvolvimento:** yarn dev
 - **O projeto estará disponível em:** http://localhost:5173/
 - **Se quiser acessar em outros dispositivos da rede:** yarn dev --host
+
+<img src="https://github.com/DevRainer/Cadastro-de-usuarios/blob/main/src/assets/headme.png" alt="Imagem do Projeto">
