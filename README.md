@@ -13,15 +13,16 @@ Este projeto é uma aplicação simples de cadastro de usuários, desenvolvida c
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
-- **Vite:** Ferramenta de build de próxima geração para projetos web, oferecendo um desenvolvimento rápido.
-- **HTML5 & CSS3:** Para a estrutura e estilização da aplicação.
-- **JavaScript (ES6+):** Linguagem de programação principal.
+- **Frontend    →   React + React Router              │
+- **Backend     →   Node.js/Express (provavelmente)   │
+- **Banco       →   MongoDB                           │
+- **Operações   →   CRUD 100% funcional ✅        
 
 ## 🚀 Como Rodar o Projeto
 
 - **Inicie o servidor de desenvolvimento:** yarn dev
 - **O projeto estará disponível em:** http://localhost:5173/
 - **Se quiser acessar em outros dispositivos da rede:** yarn dev --host
+- **Repositorio 
 
 <img src="https://github.com/DevRainer/Cadastro-de-usuarios/blob/main/src/assets/headme.png" alt="Imagem do Projeto">
