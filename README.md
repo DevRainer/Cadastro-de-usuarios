@@ -1,40 +1,43 @@
-# 🚀 Cadastro de Usuários com React e Vite
+# 🚀 User Management System | React + Vite
 
-Este projeto é uma aplicação simples de cadastro de usuários, desenvolvida com React e Vite. Ele demonstra como criar, ler, atualizar e excluir (CRUD) informações de usuários de forma eficiente e reativa.
+A modern Fullstack application for user management, built with React and Vite. This project demonstrates a complete **CRUD (Create, Read, Update, Delete)** lifecycle with a reactive and efficient user interface.
 
-## ✨ Funcionalidades
+## ✨ Key Features
 
-- **Cadastro de Usuários:** Adicionar novos usuários com nome, email e outras informações.
-- **Listagem de Usuários:** Visualizar todos os usuários cadastrados em uma tabela ou lista.
-- **Edição de Usuários:** Atualizar os dados de um usuário existente.
-- **Exclusão de Usuários:** Remover usuários da lista.
-- **Validação de Formulário:** Garantir que os dados inseridos sejam válidos.
-- **Interface Responsiva:** Adapta-se a diferentes tamanhos de tela.
+- **User Registration:** Add new users with name, email, and detailed info.
+- **Data Visualization:** View all registered users in a clean, organized list.
+- **Edit Records:** Real-time updates for existing user data.
+- **Delete Operations:** Remove users with instant UI feedback.
+- **Form Validation:** Ensuring data integrity before submission.
+- **Responsive Design:** Fully optimized for mobile and desktop screens.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 
-- **Frontend            →   React + React Router              
-- **Backend             →   Node.js/Express  
-- **Banco de dados      →   MongoDB                           
-- **Operações           →   CRUD 100% funcional ✅        
+- **Frontend:** React + Vite & React Router
+- **Backend:** Node.js & Express
+- **Database:** MongoDB
+- **Operations:** 100% Functional Fullstack CRUD ✅
 
-## ⚠️ Importante: Pré-requisitos para Funcionamento Completo
+## ⚠️ Important: Backend Dependency
 
-**Este projeto frontend requer que o backend [Node.js/MongoDB](https://github.com/DevRainer/Nodejs-MongoDB.git) esteja em execução simultaneamente para funcionar corretamente.**
+**To experience the full functionality of this project, the [Node.js/MongoDB Backend](https://github.com/DevRainer/Nodejs-MongoDB.git) must be running simultaneously.**
 
-O cadastro, listagem, edição e exclusão de usuários dependem da API do backend. Certifique-se de:
+All data operations rely on the Backend API. Please ensure:
+1. The backend server is active in a separate terminal/VSCode window.
+2. The API is running at `http://localhost:3000` (or your configured port).
+3. Both services (Frontend & Backend) remain active during use.
 
-1. Ter o servidor backend iniciado em outra janela do VSCode
-2. O backend deve estar rodando em `http://localhost:3000` (ou na porta configurada)
-3. Mantenha ambos os projetos (frontend e backend) abertos e em execução
+**Without the backend, CRUD operations will not persist or display data.**
 
-**Sem o backend em execução, as operações de CRUD não funcionarão.**
+## 🚀 Getting Started
 
-## 🚀 Como Rodar o Projeto
+1. **Install dependencies:**
+   ```bash
+   yarn install
 
-- **Inicie o servidor de desenvolvimento:** yarn dev
-- **O projeto estará disponível em:** http://localhost:5173/
-- **Se quiser acessar em outros dispositivos da rede:** yarn dev --host
+- **Start the development server: ** yarn dev
+- **The project will be available at http://localhost:5173/
+- **To access it from other devices on the same network: ** yarn dev --host
  
 
 <img src="https://github.com/DevRainer/Cadastro-de-usuarios/blob/main/src/assets/headme.png" alt="Imagem do Projeto">
